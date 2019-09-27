@@ -1,0 +1,16 @@
+{
+  "name": "msl-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "msl-webpack": "./bin/msl-webpack.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.6.2",
+    "@babel/traverse": "^7.6.2",
+    "@babel/types": "^7.6.1",
+    "babylon": "^6.18.0",
+    "ejs": "^2.7.1"
+  }
+}
